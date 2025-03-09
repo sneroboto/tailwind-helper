@@ -1,41 +1,15 @@
-import Card from "./card";
+import Card from "./components/card";
 
 export default function Home() {
   return (
-    <main className="container pt-8 space-y-4">
+    <main className="container py-8 bg-amber-600">
       <Card
-        title="Hello world"
-        text="here is some sentence as the description"
+        // subtitle="top subtitle"
+        title="Padding"
+        text="Controls the padding (space between an element's content and its border) in all directions or specific sides."
       />
-      <Card
-        title="Hello India"
-        text="here is some sentence as the description"
-      />
-      <Card title="Hello UK" text="here is some sentence as the description" />
-      <Card
-        title="Hello world"
-        text="here is some sentence as the description"
-      />
-      <Card
-        title="Hello world"
-        text="here is some sentence as the description"
-      />
-      <Card
-        title="Hello world"
-        text="here is some sentence as the description"
-      />
-      <Card
-        title="Hello world"
-        text="here is some sentence as the description"
-      />
-      <Card
-        title="Hello world"
-        text="here is some sentence as the description"
-      />
-      <Card
-        title="Hello world"
-        text="here is some sentence as the description"
-      />
+      <Card subtitle="Available Classes" />
+      <Card subtitle="Tailwind Versions" />
     </main>
   );
 }
